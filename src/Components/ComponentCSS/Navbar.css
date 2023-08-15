@@ -8,7 +8,7 @@
 #navbar {
   position: sticky;
   top: 0px;
-  height: 110px;
+  min-height: 110px;
   box-shadow: 0px 0px 6px 0px red;
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@
   border: 2px solid rgb(120, 120, 236);
   background-color: rgb(225, 204, 240);
   color: black;
-  z-index: 2;
+  z-index: 2; /* Increase z-index if necessary */
 }
 .nav_name {
   font-size: 1.8rem;
@@ -41,7 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5vw;
+  gap: 2vw;
 }
 #heading h1 {
   font-family: "signika negative";
@@ -81,6 +81,8 @@ nav ul li a {
   font-size: 1.4rem;
   border-radius: 6px;
   transition: all 0.4s ease;
+  font-family: "signika negative";
+
 }
 
 nav ul li a:hover {
@@ -103,25 +105,13 @@ nav ul li a:active {
 
 /* responsive navbar */
 @media only screen and (max-width: 940px) {
-  #navbar{
-    height: 90px;
-  }
-  /* this is navbar left heading  */
-  #logo {
-    width: 40px;
-}
-.nav_name{
-  text-shadow: none;
-  font-size: 2rem;
-}
-  #heading {
-    gap : 4vw;
-    margin-left: 4vw;
-  }
 
   #navbar a h1{
     font-size: 2rem;
   }
+  #heading {
+    gap: 3vw;
+}
   #heading h1 {
     margin-left: 0;
   }
@@ -133,7 +123,7 @@ nav ul li a:active {
 
   nav ul {
     position: fixed;
-    top: 90px;
+    top:111px;
     background-color: #111;
     width: 100%;
     display: block;

@@ -2,11 +2,13 @@
 
 #show_circle_food {
   width: 87%;
-  margin: 0.8rem auto;
+  margin: 3rem auto;
 }
 #show_circle_food .show_food_heading {
+  font-family: "signika negative";
+
   font-size: 1.8rem;
-  margin-top: 1%;
+  /* margin-top: 1%; */
 }
 #all_food_circle {
     padding: 1.5rem 0;
@@ -36,6 +38,10 @@
   width: 100px;
   height: 100px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Adjust the shadow values as needed */
+}
+.food_name{
+  font-family: "signika negative";
+
 }
 .label {
   margin: auto 26px;

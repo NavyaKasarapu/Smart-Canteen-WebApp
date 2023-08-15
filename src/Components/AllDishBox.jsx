@@ -25,7 +25,7 @@ const AllDishBox = () => {
                                         <i className="fa-regular fa-square-minus minus_quantity_button"></i>
                                         <span className="show_quantity operation_member">1</span>
                                         <i className="fa-regular fa-square-plus add_quantity_button"></i>
-                                        <Link to="https://www.djf.com" target='_blank' rel="noreferrer">
+                                        <Link to="#" target='_blank' rel="noreferrer">
                                             <button className='add_cart_btn'>Add Cart</button>
                                             {/* <!-- <i className="fa-solid fa-cart-plus"></i>  --> */}
                                         </Link>

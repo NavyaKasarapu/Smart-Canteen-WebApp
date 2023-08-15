@@ -1,13 +1,17 @@
 
 #Contents {
     margin: auto;
+    padding-top: 4%;
     width: 60%;
 }
 
 #Contents h1 {
     margin-top: 1rem;
 }
+.mainHead{
+    margin-top: 1rem;
 
+}
 
 /* Main contents */
 .heads {

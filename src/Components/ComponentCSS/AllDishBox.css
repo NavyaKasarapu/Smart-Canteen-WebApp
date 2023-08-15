@@ -1,5 +1,4 @@
 #dish_container {
-  transition: all 0.4s;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -11,6 +10,7 @@
 .all_dish_heading {
   font-size: 2.3rem;
   text-align: center;
+  font-family: "signika negative";
 }
 #dish_boxes {
   display: flex;
@@ -34,6 +34,11 @@
   flex-direction: column;
   padding-bottom: 0.6rem;
 }
+#name,
+#price {
+  font-family: "signika negative";
+  font-size: 1.5rem;
+}
 
 .dish_card:hover {
   transition: all 0.4s;
@@ -41,13 +46,11 @@
 }
 
 #dish_boxes .dish_card .dish_cart_image {
-  transition: all 0.4s;
   width: 300px;
   height: 180px;
 }
 
 .dish_card_info {
-  transition: all 0.4s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,10 +63,10 @@
   gap: 0.5rem;
 }
 .add_quantity_button {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 .minus_quantity_button {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 .show_quantity {
   padding: 0.3rem;
@@ -72,7 +75,6 @@
 }
 
 .operation_card .add_cart_btn {
-  transition: all 0.4s;
   padding: 6px 8px 4px 8px;
   text-align: center;
   background-color: rgb(223, 219, 219);
@@ -82,25 +84,36 @@
   border-radius: 4px;
   cursor: pointer;
   margin-left: 1rem;
+  font-family: "signika negative";
 }
 .add_quantity_button:hover,
 .minus_quantity_button:hover,
 .add_cart_btn:hover {
-  transition: all 0.4s;
-  transition: all 0.4s;
+  transition: all 0.2s;
   transform: scale(1.08);
   background-color: rgb(212, 194, 194);
   color: rgb(41, 5, 5);
 }
 
 @media (max-width: 600px) {
- 
   #dish_boxes .dish_card .dish_cart_image {
-    transition: all 0.4s;
-    width: 330px;
-    height: 200px;
-}
+    width: 350px;
+    height: 210px;
+  }
   .all_dish_heading {
     font-size: 1.5rem;
+  }
+
+  .dish_card {
+    transition: none;
+    transform: none;
+  }
+
+  .dish_card:hover {
+    transition: none;
+    transform: none;
+  }
+  .dish_card{
+    /* pointer-events: none; */
   }
 }
