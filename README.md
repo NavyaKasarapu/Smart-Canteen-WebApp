@@ -5,7 +5,7 @@
 1. [Overview](#Overview)
 2. [Technologies Used](#technologies-used)
 3. [Features](#features)
-4. [Getting Started](#Getting-started)
+4. [Live Hosting](#live-hosting)
 5. [Installation](#installation)
 6. [Planned Feature Roadmap](#planned-features-roadmap)
 
@@ -32,18 +32,12 @@ The web app is designed to provide a seamless and user-friendly experience. It i
 - Responsive design for a seamless experience
 - Attractive design with suitable fonts, CSS styles, and images
 
-## Getting Started
 
-These instructions will help you set up and run the frontend part of the project on your local machine for testing and development purposes.
+## Live Hosting
+The project is live hosted at [https://canteen-webapp.netlify.app]
 
-### Prerequisites
 
-Before you begin, make sure you have the following installed:
-
-- Node.js
-- npm (Node Package Manager)
-
-### Installation
+## Installation
 
 1. Clone the repository:
 
@@ -51,7 +45,12 @@ Before you begin, make sure you have the following installed:
 git clone https://github.com/LokeshwarPrasad3/smart-canteen-webapp.git   
 ```
 
-### How to run the Smart Canteen application
+## How to run the Smart Canteen application
+
+Before you begin, make sure you have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
 
 1. Navigate to the project directory:
        ```
@@ -74,10 +73,10 @@ git clone https://github.com/LokeshwarPrasad3/smart-canteen-webapp.git
     ```
 
 
-### Future development
+## Future development
 
 The current phase of the project covers the frontend part of the application. Future plans include implementing the backend and building a complete web application.
 
-### Contributing
+## Contributing
 
 Contributions to enhance the Smart Canteen project are welcome! To contribute, please follow our contribution guidelines.
